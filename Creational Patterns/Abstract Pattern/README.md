@@ -3,7 +3,7 @@
 ## What is the abstract pattern?
 To understand the abstract pattern, let’s go back to the factory pattern. We use the factory pattern to create multiple objects from the same family without having to deal with the creation process. The abstract pattern is similar; the difference is that it provides a constructor to create families of related objects. It is abstract, meaning it does not specify concrete classes or constructors.
 
-[Abstract pattern example]
+[Abstract pattern example](./abstract.jpg)
 
 The diagram above should help you understand the concept better. Here, there is an “Abstract Junk Food Factory”. It provides a constructor to create instances of either the “Chips Factory” or the “Soda Factory”. As you can see, both factories are different, yet related. These factories then, in turn, produce different types of products, chips, and sodas.
 
