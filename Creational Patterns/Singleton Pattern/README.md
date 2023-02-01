@@ -3,12 +3,12 @@
 ## What is the singleton pattern?
 The singleton pattern is a type of creational pattern that restricts the instantiation of a class to a single object. This allows the class to create an instance of the class the first time it is instantiated. However, on the next try, the existing instance of the class is returned. No new instance is created.
 
-[Singleton]
+[Singleton](./singleton)
 
 ## Example
 A real-life example is a printer a couple of office employees want to use. It’ll be a shared resource amongst all the employees. Hence, a single instance of the printer is required so that everyone can share instead of having a new instance for each employee who wants to print something.
 
-[Singleton pattern example]
+[Singleton pattern example](./case.jpg)
 
 Let’s see how we can implement the singleton pattern for the printer:
 
