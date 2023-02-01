@@ -72,7 +72,7 @@ console.log(strawberry.message());
 ### Explanation
 In the example above, we created a factory called IceCreamFactory. Its constructor has a function createIcecream that accepts the parameter flavor. Depending on the flavor, it instantiates an object of the corresponding class. For example, if the flavor is chocolate, it instantiates an object of the Chocolate class (line 6). It does the same if the flavor is mint or strawberry (lines 9 and 12).
 
-[Factory pattern example]
+[Factory pattern example](./factory.jpg)
 
 The example above shows how one general “factory template” can be used to create different objects with similar characteristics.
 
