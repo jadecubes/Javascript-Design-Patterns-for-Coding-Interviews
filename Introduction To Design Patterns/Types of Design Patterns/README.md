@@ -19,6 +19,7 @@ Let’s look at the patterns that fall under this category:
 These patterns are concerned with communication between dissimilar objects in a system. They streamline the communication and make sure the information is synchronized between such objects.
 
 Let’s look at the patterns that fall under this category:
+
 [Behavioral design patterns](./behaviorial.jpg)
 
 ## Architectural design patterns
