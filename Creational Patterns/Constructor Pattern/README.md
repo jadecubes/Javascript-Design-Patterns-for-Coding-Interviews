@@ -50,7 +50,7 @@ In line 15, an object is created from Human using the new keyword. It will conta
 var person = new Human("Elle", "23", "Engineer"); //line 15
 ```
 
-[Creating an object using constructor function]
+[Creating an object using constructor function](./creation.jpg)
 
 
 When the person object is created, it will have its name, age, and occupation properties set to the arguments passed to the constructor function.
@@ -105,7 +105,7 @@ Now we have a second object, newperson. As explained above, this refers to the n
 "Joe is a 13-year-old Painter"
 ```
 
-[Creating multiple objects using a constructor function]
+[Creating multiple objects using a constructor function](./creation2.jpg)
 
 
 ## When to use the constructor pattern?
