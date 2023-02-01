@@ -1,10 +1,10 @@
 # Constructor Pattern
 
+## What is the constructor pattern?
 As a JavaScript developer, you may have encountered “constructors” at some point. These are special functions that initialize objects with specific properties and methods.
 
 The “constructor pattern”, as the name defines, is a class-based pattern that uses the constructors present in the class to create specific types of objects.
 
-## What is the constructor pattern?
 
 ## Example
 There are many ways to create objects in JavaScript, such as using the {} notation or using Object.create.
