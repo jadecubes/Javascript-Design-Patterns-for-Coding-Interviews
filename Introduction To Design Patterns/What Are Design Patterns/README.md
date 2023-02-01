@@ -5,7 +5,7 @@ As developers, we want to write code that is efficient, reusable, and maintainab
 
 Design patterns are solutions to commonly-occurring problems in software design, such as writing JavaScript web applications. They can also be considered as templates that can be used to solve various issues in different situations.
 
-[Design patterns: real-world analogy]
+[Design patterns: real-world analogy](./creation.jpg)
 
 The illustration above shows a real-life implementation of design patterns. The ice cream factory is acting as a template that can be used to produce different types of ice cream according to the requirement. This is similar to how a design pattern can be used as a template in different circumstances.
 
