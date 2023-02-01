@@ -2,7 +2,7 @@
 ## What is the builder pattern?
 The builder pattern is a type of creational pattern that helps in building complex objects using simpler objects. It provides a flexible and step-by-step approach towards making these objects. It also keeps the representation and process of creation shielded.
 
-[Builder pattern example]
+[Builder pattern example](./building.jpg)
 
 Consider the example of a restaurant that has to build a meal for its customers. The building process has various stages:
 
