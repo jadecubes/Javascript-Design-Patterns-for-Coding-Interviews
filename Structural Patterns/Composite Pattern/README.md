@@ -4,7 +4,7 @@ The composite pattern is used to structure objects in a tree-like hierarchy. Her
 
 This pattern allows the formation of deeply-nested structures. If a leaf object receives the request sent by the client, it will handle it. However, if the recipient is composed of children, the request is forwarded to the child components.
 
-[Composite pattern concept]
+[Composite pattern concept](./concept.jpg)
 
 From the diagram, you can see that a composite pattern consists of the following:
 
@@ -100,6 +100,8 @@ console.log(freelanceDev.getProgress())
 ```
 ### Explanation
 The illustration below provides a visualization of the hierarchy of the objects in the code above:
+
+[Composite pattern example](./example.jpg)
 
 From the illustration above, you can see the hierarchy of the objects. The pattern consists of the following:
 
