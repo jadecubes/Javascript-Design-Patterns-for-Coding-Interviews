@@ -54,7 +54,7 @@ froyoWithToppings.allToppings()
 ### Explanation
 Let’s start by visualizing the code:
 
-[Decorator pattern example]
+[Decorator pattern example](./deco.jpg)
 
 
 From the diagram above, you can see that we first create a chocolate froyo that costs 10 dollars. Anyone who wants a froyo will perform this step.
