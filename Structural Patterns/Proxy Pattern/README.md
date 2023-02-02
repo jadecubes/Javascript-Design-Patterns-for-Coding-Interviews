@@ -6,11 +6,11 @@ Usually, an object has an interface with several properties/methods that a clien
 
 The proxy object looks exactly like the target object. A client might not even know that they are accessing the proxy object instead of the target object. The proxy handles the requests from the clients and forwards them to the target object, preventing undue pressure on the target.
 
-[Proxy pattern concept]
+[Proxy pattern concept](./concept1.jpg)
 
 The proxy can also act as a cache and store the requests. When the same request is made again, it can just return it from the cache rather than forwarding it to the target. This allows the target to deal with a lesser number of requests.
 
-[Proxy pattern and caching concept]
+[Proxy pattern and caching concept](./concept2.jpg)
 
 ## Example
 
