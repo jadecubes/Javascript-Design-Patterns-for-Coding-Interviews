@@ -4,7 +4,7 @@ The adapter pattern allows classes that have different interfaces (properties/me
 
 This pattern is useful if an API is modified or new implementations are added to it. In this case, if the other parts of a system are still using the old API, the adapter pattern will translate the interface so that the two can work together.
 
-[Adapter pattern concept]
+[Adapter pattern concept](./adapter.jpg)
 
 As you can see from the diagram above, the client cannot connect to the adaptee directly as the two interfaces are incompatible. This is where the adapter comes in. It translates the client’s calls to its interface and redirects them into calls to the adaptee (original interface).
 
@@ -44,7 +44,7 @@ adapter.attach()
 ```
 ### Explanation
 The diagram below illustrates the working of the adapter to attach the earphones to the mobile phone.
-
+[Example](./example.jpg)
 
 In the code above, we want to attach a simple earphone to a type c mobile device. We have a SimpleEarphones class which has a method, attach, defined on it like so:
 ```javascript
