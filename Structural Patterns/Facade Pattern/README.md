@@ -5,7 +5,7 @@ In English, the word facade means a deceptive front or appearance. Following thi
 The facade pattern allows you to hide all the messy logic from the client and only display the clear and easy-to-use interface to them. This allows them to interact with an API easily in a less error-prone way and without accessing the inner workings directly.
 
 
-[Facade pattern concept]
+[Facade pattern concept](./concept.jpg)
 
 A simple example of the facade pattern is placing an order at a restaurant. Imagine yourself as a customer who wants to eat at a restaurant. You are the client in this scenario. Depending on the place you go to eat, it’s either the waiter will take your order, or you’ll place it at the counter. Then, you’ll wait for a few minutes and the next thing you know, your food will be served.
 
@@ -187,7 +187,7 @@ Both chefs take different times to make dishes. The MainCourseChef can take betw
 
 From this example, you can see the benefit of the facade pattern. It hid the complex parts such as generating an order id, assigning a chef, or deciding the meal preparation time from the customer.
 
-[Facade pattern example]
+[Facade pattern example](./example.jpg)
 
 
 ## When to use the facade pattern?
