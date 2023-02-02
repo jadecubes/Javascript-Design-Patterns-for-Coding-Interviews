@@ -10,7 +10,7 @@ A flyweight is an independent object that can be used in multiple contexts simul
 
 - extrinsic: this state depends on the context of the flyweight and it cannot be shared. Normally, the client objects pass the extrinsic state to the flyweight object when needed.
 
-[Flyweight pattern concept]
+[Flyweight pattern concept](./concept.jpg)
 
 ## Example
 Let’s start by considering a program that doesn’t use the flyweight pattern.
