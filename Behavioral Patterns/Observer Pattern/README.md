@@ -4,7 +4,7 @@ The observer pattern is a major behavioral design pattern. It allows objects (ob
 
 Let’s look at a real-life example that we can map to this pattern. Consider a website that posts interesting articles. Every day, you visit the site to check for new articles and if there is none, you revisit after some time/days. What if you get a subscription to the website instead? Once you have the subscription, you’ll get notified every time a new article is posted. So now, instead of checking the site every few hours, you just wait for the notification about a new article.
 
-[Observer pattern concept]
+[Observer pattern concept](./concept.jpg)
 
 ## Example
 ```javascript
