@@ -135,7 +135,7 @@ The Observer also has the update function.
             console.log(`The new article ＄{subject.getUpdate()} is posted`)
         }
     }
-    ```
+```
 This function is invoked by the Subject to notify the observer about the new article getting posted. Hence, it checks for an update. If a new article is found, it displays the notification for it. Else, it returns No new article.
 
 ## When to use the observer pattern?
