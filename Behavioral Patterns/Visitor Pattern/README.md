@@ -4,7 +4,7 @@ The visitor pattern allows the definition of new operations to the collection of
 
 The extra operations can be encapsulated in a visitor object. The objects can have a visit method that accepts the visitor object. The visitor can then make the required changes and perform the operations on the object that received it. This allows the developers to make future extensions, extend the libraries/frameworks, etc.
 
-[Visitor pattern concept]
+[Visitor pattern concept](./concept.jpg)
 
 ## Example
 ```javascript
