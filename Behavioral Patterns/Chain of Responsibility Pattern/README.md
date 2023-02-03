@@ -4,7 +4,7 @@ The chain of responsibility pattern allows a request sent by a client to be rece
 
 A common example of this pattern is event bubbling in DOM. An event propagates through different nested elements of the DOM until one of them handles it.
 
-[Chain of responsibility pattern concept]
+[Chain of responsibility pattern concept](./concept.jpg)
 
 ## Example
 ```javascript
@@ -184,7 +184,7 @@ c2.setNextObj(c3);
 ```
 We create the handlers c1, c2, and c3 for processing the multiples of two, three, and five. They are connected in the following manner: c2 is next to c1 and c3 is next to c2.
 
-[Connecting handlers using "setNext"]
+[Connecting handlers using "setNext"](./setNext.jpg)
 
 
 Now that the chain has been created, it is time to process the multiple given. Let’s start by creating a “multiple” object using the Multiple class like so:
@@ -223,7 +223,7 @@ c1.processMultiple(new Multiple(95))
 The first handler in the chain, c1, takes the multiple 95 and checks if it is a multiple of 2. The answer is false, so it passes it on to the second handler in the chain, that is, the multiple of three handler. The answer is false again, so it passes it on to the third handler in the chain, the multiple of five handler. It returns the answer because 95 is a multiple of five.
 
 
-[Handlers processing a request]
+[Handlers processing a request](./handlers.jpg)
 
 ## When to use the chain of responsibility pattern?
 You can use it if your program is written to handle various requests in different ways without knowing the sequence and type of requests beforehand. It allows you to chain several handlers, thus, allowing all of them a chance to process the request.
