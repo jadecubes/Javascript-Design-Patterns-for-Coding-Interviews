@@ -19,7 +19,7 @@ The controller acts as the mediator between the model and the view	             
 Controller can share multiple views	                                                                                         The presenter has a one to one mapping with the view. If the view is complex, it can use multiple presenters
 The view can also communicate directly with the model by observing it for changes and updating itself accordingly	The        model and the view are more separate in this pattern as the presenter reacts to user actions by retrieving and manipulating model data and returning it to the view for display
 ```
-[MVP pattern concept]
+[MVP pattern concept](./concept.jpg)
 
 ## Example
 ```javascript
@@ -176,7 +176,7 @@ if(text !== text.toUpperCase()){
 ```    
 As discussed, the View is responsible for passing any user actions to the presenter. An example is that of the changeText function, which allows the user to change the text. As you can see, it notifies the presenter, which then calls the changeText function of its own. We will get into that when we discuss the Presenter. Similarly, the View also displays the updated data returned to it by the presenter. The displayError and displayMessage functions are defined for that purpose.
 
-[Example]
+[Example](./example.jpg)
 
 ## When to use the MVP pattern?
 You can use this pattern:
