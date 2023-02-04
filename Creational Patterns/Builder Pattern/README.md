@@ -95,7 +95,7 @@ In this example, we are building a meal using a step-by-step process. We have a 
 - step4: adding a soda to the meal
 
 At the end of these steps, the assembled meal (Order object) is returned in (line 7):
-```
+```javascript
 return builder.get();
 ```
 How are the burger, side, and soda added to the meal? The Order function contains the following methods which set the values of these properties:
@@ -107,7 +107,7 @@ How are the burger, side, and soda added to the meal? The Order function contain
 - addSoda: sets the value of soda
 
 There is an additional method display, which shows the order that the customer placed. A customer can provide different builders, which gives him some control in the overall meal-building process. In the example above, the customer provided the following builder:
-```
+```javascript
 var mealBuilder = new MealBuilder("chicken","curly fries","coke");
 ```
 As you can see for different orders placed by the customers, the same builder pattern can be used.
