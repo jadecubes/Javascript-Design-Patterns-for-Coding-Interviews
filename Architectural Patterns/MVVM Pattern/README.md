@@ -16,7 +16,7 @@ The view and ViewModel communicate via events, data binding, and method calls. W
 ### Model and ViewModel
 ViewModel exposes the model and its properties for data binding. It also contains interfaces to fetch and format the properties it displays to the view.
 
-[MVVM pattern concept]
+[MVVM pattern concept](./concept.jpg)
 
 From this diagram, you can tell that the MVVM pattern is based on the observer pattern. The model is the subject here that notifies the ViewModel (observer) of any changes. The ViewModel then updates the view accordingly. Any changes in the view are also reflected in the model via the ViewModel.
 
