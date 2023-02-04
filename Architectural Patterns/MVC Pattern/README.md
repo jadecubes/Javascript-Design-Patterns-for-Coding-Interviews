@@ -20,7 +20,7 @@ As mentioned, view is the visual representation of the model. Whenever it is not
 
 The controller is the connection between the model and the view. The controller takes input from the user such as a click or keypress which updates the view side and then updates the model. It can sometimes update the view directly as well.
 
-[MVC pattern concept]
+[MVC pattern concept](./concept.jpg)
 
 
 
